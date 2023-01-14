@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Class-39</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" type="image/x-icon"
+	href="favicon.png">
+</head>
+<body>
+	<center><strong><h1>CSS Transitions</h1></strong></center>
+		<div class="trans-effect"><center><strong>GEAR 5</strong></center>
+		</div>
+	<center><strong><h1>CSS Animations</h1></strong></center>
+	<div class="animation">
+	</div>
+</body>
+</html>
