@@ -1,0 +1,67 @@
+.trans-effect {
+	height: 299px;
+	width: 150px;
+	/*background-color: lightseagreen;*/
+	background-image: url(gear5.jpeg);
+	background-repeat: no-repeat;
+	transition-delay: 1s;
+	transition: height 10s;
+	color: white;
+}
+
+.trans-effect:hover {
+	height: 249px;
+	width: 70%;
+	transition: height 8s;
+}
+
+.animation {
+	position: relative;
+	height: 300px;
+	width: 400px;
+	animation-name: img;
+	border: 4px solid lightblue;
+	background-image: url(luffy.png);
+	background-repeat: no-repeat;
+	animation-duration: 20s;
+	animation-delay: 1s;
+	/*animation-iteration-count: 4;*/
+	animation-fill-mode: both;
+}
+
+@keyframes img {
+	0% {
+		border: 8px solid red;
+		top: 0;
+		left: 0;
+	}
+
+	25% {
+		border: 8px solid blue;
+		top: 0;
+		left: 200px;
+		right: 0;
+
+	}
+
+	50% {
+		border: 8px solid green;
+		top: 200px;
+		bottom: 0;
+		left: 200px;
+	}
+
+	75% {
+		border: 8px solid yellow;
+		left: 0;
+		top: 200px;
+		right: 200px;
+	}
+
+	100% {
+		border: 8px solid black;
+		top: 0;
+		left: 0;
+
+	}
+}
